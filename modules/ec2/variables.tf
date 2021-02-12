@@ -5,4 +5,4 @@ variable "instance_type" {
 
   variable "SG1" {}
   variable "Keyname" {}
-  
+ # variable "subnets" {}

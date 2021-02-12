@@ -4,9 +4,10 @@ variable "imuser" {
 }
 variable "create_instance" {
   type    = bool
-  default = true
+  default = false
 }
 variable "instance_count" {
   type    = number
-  default = 1
+  default = 2
 }
+

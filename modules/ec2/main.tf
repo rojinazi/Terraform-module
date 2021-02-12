@@ -21,7 +21,7 @@ resource "aws_instance" "example" {
   instance_type          = var.instance_type
   key_name               = var.Keyname
   vpc_security_group_ids = [var.SG1]
-
+  #subnet_id   = var.subnets
   user_data = <<-EOF
         #! /bin/bash
         yum install httpd -y
