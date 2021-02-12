@@ -7,5 +7,5 @@ module "EC2" {
   source        = "../modules/ec2"
   SG1           = module.security_group.securityname
   Keyname       = "dec2020"
-  instance_type = "t3.micro"
+  instance_type = "t2.micro"
 }
