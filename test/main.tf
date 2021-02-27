@@ -14,5 +14,5 @@ module "EC2" {
   SG1           = module.security_group.securityname
   Keyname       = "dec2020"
   instance_type = "t3.micro"
-  subnets  = module.myvpc.public_subnet
+ /* subnets  = module.myvpc.public_subnet*/
 }
